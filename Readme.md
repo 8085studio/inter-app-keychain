@@ -21,6 +21,9 @@ $(AppIdentifierPrefix)com.8085studio.iak1
 接著再使用 `KeychainUtility.swift` 就可以在兩個App之間共享相同的Keychain資料了
 
 > **Note: **範例程式中在Info.plist裡新增了一組key-value
+>
 > Key: AppIdentifierPrefix
+>
 > Value: $(AppIdentifierPrefix)
+>
 > 方便在runtime時取得App Identifier Prefix
